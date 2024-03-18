@@ -9,7 +9,7 @@ export default function Trainer(){
    
     return(
         <div id="trainer" className="flex flex-col gap-24 justify-center items-center py-12 mb-24">
-            <h1 className="h1Normal text-center px-4 md:text-6xl text-5xl">Learn by a seasoned
+            <h1 className="h1Normal text-center px-4 md:text-6xl text-4xl">Learn by a seasoned
                 <br/><snap className="h1Grad2">Software Architect</snap> </h1>
             
             <div className=" hidden md:flex gap-4  ring-1 ring-stone-200 shadow-sm  max-w-[700px] px-4 py-4 bg-stone-100 bg-opacity-30 rounded-lg backdrop-blur-sm">

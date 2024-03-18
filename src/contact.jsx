@@ -8,7 +8,7 @@ export default function Contact(){
 
     return(
         <div id="contact">
-             <h1 className="h1Normal text-center px-4 md:text-6xl text-5xl">
+             <h1 className="h1Normal text-center px-4 md:text-6xl text-4xl">
                 <br/><snap className="h1Grad2">Contact</snap> Us</h1>
                 <div className="flex gap-6 flex-col items-center justify-center py-12">
                 <button onClick={WhatsApp} class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">

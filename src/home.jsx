@@ -33,7 +33,7 @@ export default function HomeComp(){
 
     return(
         <div className="flex flex-col gap-20 my-32 text-center  py-2  items-center justify-between" id="home   ">
-            <h1 id="firstHead" className="h1Normal text-center px-4 md:text-6xl text-5xl">
+            <h1 id="firstHead" className="h1Normal text-center px-4 md:text-6xl text-4xl">
                 Mastery of Fundamentals,<br/>Taught by <span className="text-sky-500"> Industry Experts</span> </h1>
 
             <p id="firstSubHead" className="subHead readex-400 text-stone-600 text-xl">We are offering a comprehensive C programming course,<br/>

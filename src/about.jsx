@@ -14,7 +14,7 @@ export default function About(){
         <div id="about">
 
         <div className="flex flex-col gap-24 justify-center items-center">
-            <h1 className="h1Normal text-center px-4 md:text-6xl text-5xl">Get to Know Our
+            <h1 className="h1Normal text-center px-4 md:text-6xl text-4xl">Get to Know Our
                 <br/><snap className="h1Grad2">Story & Team</snap> </h1>
             <div className="flex flex-col gap-4">
                 <div className="flex px-16 justify-evenly">
