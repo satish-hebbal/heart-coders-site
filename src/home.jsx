@@ -36,7 +36,7 @@ export default function HomeComp(){
             <h1 id="firstHead" className="h1Normal text-center px-4 md:text-6xl text-4xl">
                 Mastery of Fundamentals,<br/>Taught by <span className="text-sky-500"> Industry Experts</span> </h1>
 
-            <p id="firstSubHead" className="subHead readex-400 text-stone-600 text-xl">We are offering a comprehensive C programming course,<br/>
+            <p id="firstSubHead" className="subHead readex-400 text-stone-600 px-2 text-xl">We are offering a comprehensive C programming course,<br/>
                 available both online and offline.</p> 
 
             <button onClick={goToForm} className="shadow-md rounded-md px-12 py-4 readex-500 text-stone-700 bg-sky-300  transition-all duration-300"> Enroll Now!</button>
