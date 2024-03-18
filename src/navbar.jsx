@@ -33,10 +33,10 @@ export default function NavBar(){
                 <li className="cursor-pointer hover:text-sky-600"><a href="#contact"> Contact</a></li>
                </ul>
             </div>
-            <div id="signing" className="flex gap-6 items-center  readex-400 text-stone-600">
+            {/* <div id="signing" className="flex gap-6 items-center  readex-400 text-stone-600">
                 <button>Sign Up</button>
                 <button className="ring-1 px-4 rounded-sm bg-sky-500 text-stone-100 items- py-1">Log In</button>
-            </div>
+            </div> */}
         
         </nav>
         
