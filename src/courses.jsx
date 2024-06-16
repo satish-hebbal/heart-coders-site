@@ -60,7 +60,7 @@ export default function CourseComp(){
       };
 
     return(
-        <div id="courses" className="flex flex-col gap-24 justify-center items-center py-12">
+        <div id="courses" className="flex flex-col gap-16 justify-center items-center py-12">
             <h1 id="courseHead" ref={headingRef} className="h1Normal text-center px-4 md:text-6xl text-4xl">Courses that will redefine <br/>your <snap className="h1Grad2 text-purple-700">Approach to Coding</snap> </h1>
             
             <div id="card" className="flex flex-col gap-2 mx-4 ring-1 ring-stone-200 shadow-sm  max-w-[700px] px-4 py-4 bg-stone-100 bg-opacity-30 rounded-lg backdrop-blur-sm">
