@@ -17,6 +17,7 @@ export default function Contact(){
                     </span>
                 </button>
                     <p className="text-center readex-400 text-stone-700">Email us at <span className="text-sky-500 ">admin@heartcoders.com</span></p>
+                    <p className="text-center readex-400 text-stone-700">Contact number <span className="text-sky-500 ">+91 7892255310</span></p>
                     <p className="text-center readex-400 text-stone-700">Address : Banashankari Layout, Vidyanagar, Hubli, Karnataka, India</p>
                 </div>
 
