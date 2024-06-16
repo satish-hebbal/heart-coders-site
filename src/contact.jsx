@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact(){
 
     const WhatsApp = () => {
-        window.open("https://api.whatsapp.com/send/?phone=919019227514&text&type=phone_number&app_absent=0", "_blank");
+        window.open("https://api.whatsapp.com/send/?phone=917892255310&text&type=phone_number&app_absent=0", "_blank");
       };
 
     return(
