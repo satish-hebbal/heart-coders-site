@@ -7,7 +7,7 @@ export default function Contact(){
       };
 
     return(
-        <div id="contact">
+        <div id="contact" className="bg-slate-400 bg-opacity-30 backdrop-blur-md border border-gray-200 border-opacity-40 rounded-lg p-6 shadow-lg">
              <h1 className="h1Normal text-center px-4 md:text-6xl text-4xl">
                 <br/><snap className="h1Grad2">Contact</snap> Us</h1>
                 <div className="flex gap-6 flex-col items-center justify-center py-12">
@@ -16,8 +16,8 @@ export default function Contact(){
                         Connect Us on WhatsApp
                     </span>
                 </button>
-                    <p className="text-center readex-400 text-stone-700">Email us at <span className="text-sky-500 ">admin@heartcoders.com</span></p>
-                    <p className="text-center readex-400 text-stone-700">Contact number <span className="text-sky-500 ">+91 7892255310</span></p>
+                    <p className="text-center readex-400 text-stone-700">Email us at <span className="text-blue-600 ">admin@heartcoders.com</span></p>
+                    <p className="text-center readex-400 text-stone-700">Contact number <span className="text-blue-600 ">+91 7892255310</span></p>
                     <p className="text-center readex-400 text-stone-700">Address : Banashankari Layout, Vidyanagar, Hubli, Karnataka, India</p>
                 </div>
 
