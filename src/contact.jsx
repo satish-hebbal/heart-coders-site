@@ -7,7 +7,7 @@ export default function Contact(){
       };
 
     return(
-        <div id="contact" className="bg-slate-400 bg-opacity-30 backdrop-blur-md border border-gray-200 border-opacity-40 rounded-lg p-6 shadow-lg">
+        <div id="contact" className="bg-slate-300 bg-opacity-30 backdrop-blur-md border border-gray-200 border-opacity-40 rounded-lg p-6 shadow-lg">
              <h1 className="h1Normal text-center px-4 md:text-6xl text-4xl">
                 <br/><snap className="h1Grad2">Contact</snap> Us</h1>
                 <div className="flex gap-6 flex-col items-center justify-center py-12">
