@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useRef } from "react";
 import Clogo from "./assets/C logo.png"
+import Pytho from "./assets/pytho.png"
 import gsap from 'gsap' 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from 'split-type'
@@ -13,8 +15,10 @@ export default function CourseComp(){
     const headingRef = useRef(null)
 
     useGSAP(()=>{
+        // eslint-disable-next-line no-unused-vars
         const mytext = new SplitType('#courseHead')
         // const subHead = new SplitType('#firstSubHead')
+        // eslint-disable-next-line no-unused-vars
         let tl = gsap.timeline()
 
         // tl.from('#courseHead .char', {
@@ -61,6 +65,16 @@ export default function CourseComp(){
             
             <div id="card" className="flex flex-col gap-2 mx-4 ring-1 ring-stone-200 shadow-sm  max-w-[700px] px-4 py-4 bg-stone-100 bg-opacity-30 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center gap-4  " ><img className="h-12 md:h-20" src={Clogo} alt=""/> <h3 className="readex-400 text-stone-800 md:text-2xl text-xl">C Programming course</h3></div>
+                <p className="px-2 readex-300 md:text-xl text-lg text-stone-600">The course curriculum is structured to provide you
+                    with a solid foundation in the language</p>
+                <p className="px-2 readex-400 text-lg md:text-xl text-stone-500">Beginner-friendly · Target-based · Certification</p>
+                <div className="flex items-center justify-between mt-4 px-2">
+                    <p className="readex-300 text-sm text-lime-700">Discounts for early registrations</p>
+                    <button onClick={goToForm} className="bg-sky-300 rounded-md px-6 py-2" >Enroll  now!</button>
+                </div>
+            </div>
+            <div id="card" className="flex flex-col gap-2 mx-4 ring-1 ring-stone-200 shadow-sm  max-w-[700px] px-4 py-4 bg-stone-100 bg-opacity-30 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center gap-4  " ><img className="h-12 md:h-20" src={Pytho} alt=""/> <h3 className="readex-400 text-stone-800 md:text-2xl text-xl">Python Programming course</h3></div>
                 <p className="px-2 readex-300 md:text-xl text-lg text-stone-600">The course curriculum is structured to provide you
                     with a solid foundation in the language</p>
                 <p className="px-2 readex-400 text-lg md:text-xl text-stone-500">Beginner-friendly · Target-based · Certification</p>
